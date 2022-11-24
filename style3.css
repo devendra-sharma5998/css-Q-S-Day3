@@ -1,0 +1,113 @@
+.head
+{
+   background-color: rgb(82, 15, 238);
+   /* padding: 15px; */
+   height: 55px;
+   
+}
+.logo
+{
+    position: absolute;
+    margin-left: 20px;
+    width: 45px;
+    height:45px;
+    size: 10px;
+}
+.head 
+{
+    overflow: auto;
+}
+.pb
+{
+    margin-left: 70px;
+    position: absolute;
+    /* margin-top: 0; */
+    color: #209CEE;
+    /* position: absolute; */
+    margin-top: 0;
+    font-size: x-large;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.a{
+    font-size: large;
+    color: rgb(240, 217, 239);
+}
+
+nav li
+{
+    float: right;
+    padding-left: 25px;
+}
+.plus
+{
+    float: left;
+   
+    margin-left: 480px;
+    padding-top: 9px;
+    
+}
+.text1{
+    padding: 8px;
+}
+button
+{
+    float: right;
+    margin-right: 20px;
+    padding-right: 20px;
+    background-color: rgb(39, 221, 94);
+    color: rgb(12, 10, 10);
+}
+.button :hover
+{
+    background-color: rgb(0, 255, 34);
+}
+
+.animation{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 30, 128);
+    animation-name: dev;
+    animation-duration: 5s;
+    color: white;
+    font-size: x-large;
+    animation-iteration-count: infinite;
+}
+@keyframes dev{
+    50%{
+        transform: translate(200%);
+        background: rgb(0, 255, 98);
+        color: rgb(128, 0, 96);
+    }
+   
+
+}
+.hover{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    right:200px;
+    top: 40%;
+    color: white;
+    font-size: x-large;
+}
+.hover:hover{
+       transition: 2s;
+       width: 200px;
+       height: 200px;
+       background-color: tomato;
+       transform: rotatex(360deg);
+}
+.font
+{
+    border: 2px solid red;
+    background-color: yellow;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+     margin-top: 120px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    
+}
